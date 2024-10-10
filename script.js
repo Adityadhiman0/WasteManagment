@@ -96,4 +96,5 @@ newsletterForm.addEventListener('submit', (event) => {
     newsletterErrorMessage.textContent = '';
 
     if (!emailPattern.test(email)) {
-        newsletterErrorMessage.textContent = 'Please enter
+        newsletterErrorMessage.textContent = 'Please enter'};
+    })
